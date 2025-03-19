@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Barba Barbershop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="EL BARBA LOGO ARGENTO X SFONDO NERO.png">
+</head>
+<body>
+  
+    <header>
+        <div class="container1">
+            <div id="branding">
+                <h1><span class="highlight">El Barba</span> Barbershop<img src="EL BARBA LOGO ARGENTO X SFONDO NERO.png"
+                    alt="ElBarba Logo" class="logo"></h1>
+            </div>
+            <div class="container2">
+                <nav>
+                    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+                    <ul id="nav-menu" class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="La nostra storia.html">La nostra storia</a></li>
+                        <li><a href="contattaci.html">Contattaci</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section id="vetrina">
+        <div class="overlay"></div> 
+        <div class="container">
+            <h1>Benvenuto da El Barba, dove prendersi cura di sé diventa un'arte. Scopri i nostri servizi per barba, capelli e beauty.</h1>
+            <p>Un ambiente elegante e rilassante per chi ama prendersi cura della propria immagine. Vieni a trovarci!</p>
+            <div class="button-container">
+                <a href="contattaci.html" class="btn">Contattaci</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="cards">
+        <div class="card">
+            <img src="Elbarba/1.jpg" alt="Servizio 1">
+            <h3>⚽ "Barba, capelli e pallone: la mia passione al tuo servizio!"</h3>
+            <p>Tagli perfetti in negozio, dribbling impeccabili in campo!<br>
+             Vieni a provare il tocco da campione anche sui tuoi capelli.</p>
+        </div>
+        <div class="card">
+            <img src="Elbarba/2.jpg" alt="Servizio 2">
+            <h3>Benvenuto nel nostro salone: stile, comfort e atmosfera unica!</h3>
+            <p>🔥 "Design, comfort e passione per il grooming.<br>
+             Qui ogni dettaglio è pensato per offrirti il meglio.</p>
+        </div>
+        <div class="card">
+            <img src="Elbarba/3.jpg" alt="Servizio 3">
+            <h3>🔥 "Stile e divertimento: il barbiere dove si gioca sul serio!</h3>
+            <p>✂️ "Stile, precisione e un po’ di sano divertimento.<br>
+             Ti aspettiamo per un taglio… e magari una rivincita!"</p>
+        </div>
+        <div class="card">
+            <img src="Elbarba/immagine proprietario.jpg" alt="Servizio 4">
+            <h3>Un trono d’oro per un re delle forbici!</h3>
+            <p>Vieni a trovarci e scopri il nostro stile regale, ma sempre con il sorriso.</p>
+        </div>
+        <div class="card">
+            <img src="Elbarba/orari.jpg" alt="Servizio 4">
+            <p>Gli orari sono validi per tutti i negozi ElBarba</p>
+            
+        </div>
+    </section>
+
+    
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('nav-menu');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script>
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2025 El Barba Barbershop. Tutti i diritti riservati.</p>
+        <p>Seguici su:
+            <a href="https://www.instagram.com/elbarba_barbershop19" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/share/1FMEUdP2NV/" target="_blank">Facebook</a> |
+            
+        </p>
+    </div> 
+</footer>
+
+</body>
+</html>
